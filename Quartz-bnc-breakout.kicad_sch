@@ -3602,6 +3602,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 156.21) (xy 214.63 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be23af6-ed44-4b96-97b7-e82f8a1b44fa")
+	)
+	(wire
+		(pts
 			(xy 147.32 139.7) (xy 147.32 142.24)
 		)
 		(stroke
@@ -3949,6 +3959,16 @@
 			(type default)
 		)
 		(uuid "e25afd72-b270-4a24-985f-3cd6d2876fb0")
+	)
+	(wire
+		(pts
+			(xy 214.63 140.97) (xy 214.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26d89cf-4ba8-44ef-87cb-cd93544597f3")
 	)
 	(wire
 		(pts
@@ -4989,7 +5009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 90.17 0)
 			(effects
 				(font
@@ -5125,7 +5145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 74.93 0)
 			(effects
 				(font
@@ -5289,7 +5309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 59.69 0)
 			(effects
 				(font
@@ -5754,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 44.45 0)
 			(effects
 				(font
@@ -5848,15 +5868,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Quartz BNC Breakout"
 				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
@@ -5894,7 +5905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -5928,6 +5939,73 @@
 			(project "Quartz BNC Breakout"
 				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0local:MountingHole_Pad")
+		(at 214.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710b4baa-35c7-4b7f-8956-593a98576287")
+		(property "Reference" "H7"
+			(at 217.17 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 217.17 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7757ed3-a9c4-43c0-88ce-4c0dba934b40")
+		)
+		(instances
+			(project "Quartz-bnc-breakout"
+				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -6220,6 +6298,73 @@
 			(project "Quartz BNC Breakout"
 				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0local:MountingHole_Pad")
+		(at 214.63 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8b0ff0-defc-4cb6-b285-e989210ee1e5")
+		(property "Reference" "H8"
+			(at 217.17 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 217.17 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
+			(at 214.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "125197eb-c219-4eba-ac93-f3a5d9bd5a75")
+		)
+		(instances
+			(project "Quartz-bnc-breakout"
+				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -6907,6 +7052,73 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 214.63 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3299fbb-ae12-4990-a46b-136b17fad1ce")
+		(property "Reference" "#PWR01"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eeb2c9c-77f8-4017-b548-6161cef22c99")
+		)
+		(instances
+			(project "Quartz-bnc-breakout"
+				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 214.63 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6973,6 +7185,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 214.63 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9c2be63-fae3-4bb0-8e06-0ffae7c8fd0c")
+		(property "Reference" "#PWR02"
+			(at 214.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b4c1b4-a47c-48e3-9c76-19039984c23d")
+		)
+		(instances
+			(project "Quartz-bnc-breakout"
+				(path "/da18bdec-181d-4fa7-97c5-6d52be270bee"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0local:MountingHole_Pad")
 		(at 214.63 120.65 0)
 		(unit 1)
@@ -7000,7 +7279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0local:MountingHole_3mm_Pad"
+		(property "Footprint" "0local:MountingHole_3.4mm_Pad"
 			(at 214.63 120.65 0)
 			(effects
 				(font

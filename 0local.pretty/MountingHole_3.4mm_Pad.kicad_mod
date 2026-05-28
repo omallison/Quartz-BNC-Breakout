@@ -1,4 +1,4 @@
-(footprint "MountingHole_3mm_Pad"
+(footprint "MountingHole_3.4mm_Pad"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_3mm_Pad"
+	(property "Value" "MountingHole_3.4mm_Pad"
 		(at 0 3.95 0)
 		(layer "F.Fab")
 		(uuid "fc4d0da7-5ccc-4838-a5ff-c9e60610f844")
@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -98,7 +100,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 6 6)
-		(drill 3)
+		(drill 3.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
