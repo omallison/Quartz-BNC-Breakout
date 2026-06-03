@@ -5027,7 +5027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 90.17 0)
 			(effects
 				(font
@@ -5163,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 74.93 0)
 			(effects
 				(font
@@ -5327,7 +5327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 59.69 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 44.45 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 135.89 0)
 			(effects
 				(font
@@ -6349,7 +6349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 151.13 0)
 			(effects
 				(font
@@ -6893,7 +6893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307191_BNC_Connectors&DocType=Catalog%20Section&DocLang=English&DocFormat=pdf&PartCntxt=5227222-2"
 			(at 114.3 43.18 0)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "3.4 mm Mounting Hole for M3 screw with connection"
 			(at 214.63 120.65 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5787686&DocType=Customer+Drawing&DocLang=English"
 			(at 55.88 100.33 0)
 			(effects
 				(font
